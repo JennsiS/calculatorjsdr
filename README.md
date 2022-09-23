@@ -1,22 +1,30 @@
-# Calculatorjdsr
+# Calculator
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/calculatorjdsr`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/calculator`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+This gem is a simple implementation of a calculator, with basic arithmetics operations.
 
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add calculatorjdsr
+    $ bundle add calculator
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install calculatorjdsr
+    $ gem install calculator
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a new instance of the class calculator and use the defined methods like the example below:
+```ruby 
+calculator = Calculator.new
+calculator.addition(1,2)
+calculator.substraction(3,4)
+calculator.multiplication(3,5)
+calculator.divide(10,2)
+calculator.module_operation(6,4)
+```
 
 ## Development
 
@@ -26,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/calculatorjdsr. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/calculatorjdsr/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/calculator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/calculator/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -34,4 +42,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Calculatorjdsr project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/calculatorjdsr/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Calculator project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/calculator/blob/master/CODE_OF_CONDUCT.md).
